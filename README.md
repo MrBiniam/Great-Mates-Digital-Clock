@@ -76,29 +76,38 @@ Below is a simplified description of the circuit connections:
 - **DS1307 RTC Module** and **TM1637 7-segment display** for hardware setup.
 
 ### Steps to Run:
+## How to Run the Project
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/MrBiniam/Great-Mates-Digital-Clock.git
-2. Open the project in Arduino IDE:
-         Open the .ino file in the Arduino IDE after cloning the repository.
+### Open the project in Arduino IDE:
+- Open the `.ino` file in the Arduino IDE after cloning the repository.
 
-Upload to your Arduino Nano:
-      Connect the Arduino Nano to your computer.
-      Select the correct board and port in the Tools menu.
-      Click Upload to flash the code to the Arduino Nano.
-      Watch the clock work: The time will be displayed on the 7-segment display, updating every second.
+### Upload to your Arduino Nano:
+1. Connect the Arduino Nano to your computer.
+2. Select the correct board and port in the **Tools** menu.
+3. Click **Upload** to flash the code to the Arduino Nano.
+4. Watch the clock work: The time will be displayed on the 7-segment display, updating every second.
 
-Dependencies
-SevenSegmentTM1637: Version 1.0.0
-RTClib: Version 1.0.0
+---
+
+## Dependencies
+
+- **SevenSegmentTM1637**: Version 1.0.0
+- **RTClib**: Version 1.0.0
+
 These libraries are required to compile the code successfully.
 
-Contributions
+---
+
+## Contributions
+
 Feel free to contribute to this project! You can submit a pull request with improvements, bug fixes, or new features.
 
-License
-This project is licensed under the MIT License.
+---
+
+## License
+
+This project is licensed under the **MIT License**.
+
 
 ### Key Additions:
 - Added **Steps to Run** with instructions to clone the repository, open it in the Arduino IDE, upload the code, and watch the clock work.
